@@ -5,7 +5,7 @@
       "name": "Buzz",
       "tagline": "A Real Bitter Experience.",
       "first_brewed": "09/2007",
-      "description": "A light, crisp and bitter IPA brewed with English and American hops. A small batch brewed only once.",
+      "description": "A light, crisp and bitter IPA brewed",
       "image_url": "https://images.punkapi.com/v2/keg.png",
       "food_pairing": [
         "Spicy chicken tikka masala",
@@ -13,7 +13,8 @@
         "Caramel toffee cake"
       ],
       "brewers_tips": "The earthy and floral aromas from the hops can be overpowering. Drop a little Cascade in at the end of the boil to lift the profile with a bit of citrus.",
-      "contributed_by": "Sam Mason <samjbmason>"
+      "contributed_by": "Sam Mason <samjbmason>",
+      "beer_id": "1"
     },
     {
       "id": 3,
@@ -65,7 +66,7 @@
       "name": "Electric India",
       "tagline": "Vibrant Hoppy Saison.",
       "first_brewed": "05/2013",
-      "description": "wow so good!",
+      "description": "wow s",
       "image_url": "https://images.punkapi.com/v2/6.png",
       "food_pairing": [
         "Mussels with a garlic and herb sauce",
@@ -118,7 +119,8 @@
         "Aromatic korma curry with lemon and garlic naan"
       ],
       "brewers_tips": "Getting good Bramling Cross is key. Most English hops are in leaf form (not pelletised), so getting fresh hops close to harvest (September) will give this beer the right amount of dark berry intensity.",
-      "contributed_by": "Sam Mason <samjbmason>"
+      "contributed_by": "Sam Mason <samjbmason>",
+      "beer_id": "9"
     },
     {
       "id": 10,
@@ -201,7 +203,7 @@
       "name": "Libertine Porter",
       "tagline": "Dry-Hopped Aggressive Porter.",
       "first_brewed": "01/2012",
-      "description": "An avalanche of cross-continental hop varieties give this porter a complex spicy, resinous and citrusy aroma, with a huge malt bill providing a complex roasty counterpoint. Digging deeper into the flavour draws out cinder toffee, bitter chocolate and hints of woodsmoke.",
+      "description": "your new description",
       "image_url": "https://images.punkapi.com/v2/16.png",
       "food_pairing": [
         "Blue cheese beef burger",
@@ -209,7 +211,8 @@
         "Chocolate cake"
       ],
       "brewers_tips": "Mash in at a higher temperature to leave more unfermentable sugars in the wort. This gives the beer a sweeter porter profile.",
-      "contributed_by": "Sam Mason <samjbmason>"
+      "contributed_by": "Sam Mason <samjbmason>",
+      "beer_id": "15"
     },
     {
       "id": 16,
