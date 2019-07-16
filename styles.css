@@ -1,0 +1,26 @@
+@keyframes background-beer {
+  0% {transform: rotate(0deg)}
+  50% {transform: rotate(30deg)}
+  100% {transform: rotate(0deg)}
+}
+
+img {
+  position: relative;
+  left: 50px;
+  animation-name: background-beer;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+@keyframes text-color {
+  0% {color: red}
+  50% {color: blue}
+  100% {color: color: green}
+}
+
+h3 {
+  animation-name: text-color;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
