@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     .then(beers => {
         const ulTag = document.querySelector("ul#list-group")
         beers.forEach(beer => {
-            ulTag.innerHTML += `<li class="list-group-item" data-id=${beer.id}>${beer.name}</li>`
+            ulTag.innerHTML += createBeerLi(beer)
         });
     })
 
@@ -14,13 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
             .then(res => res.json())
             .then(beer => {
                 const divTag = document.querySelector("div#beer-detail")
-                divTag.innerHTML = `<h1>${beer.name}</h1>
-                <img src=${beer.image_url}>
-                <h3>${beer.tagline}</h3>
-                <textarea>${beer.description}</textarea>
-                <button id="edit-beer" class="btn btn-info" data-id=${beer.id}>
-                  Save
-                </button>`
+                divTag.innerHTML = displayBeer(beer)
             })
         } else if (e.target.tagName === "BUTTON" && e.target.id === "edit-beer") {
             const new_description = e.target.previousElementSibling.value
@@ -36,4 +30,18 @@ document.addEventListener("DOMContentLoaded", function() {
             })
         }
     })
+
+    function createBeerLi(beer) {
+        return `<li class="list-group-item" data-id=${beer.id}>${beer.name}</li>`
+    }
+
+    function displayBeer(beer) {
+        return `<h1>${beer.name}</h1>
+        <img src=${beer.image_url}>
+        <h3>${beer.tagline}</h3>
+        <textarea>${beer.description}</textarea>
+        <button id="edit-beer" class="btn btn-info" data-id=${beer.id}>
+          Save
+        </button>`
+    }
 })
